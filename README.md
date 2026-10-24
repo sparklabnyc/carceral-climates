@@ -1,7 +1,10 @@
 # Carceral Climates
 
 <p align="center">
-  <img src="/logo.svg" alt="Carceral Climates" width="600">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="/logo-dark.svg">
+    <img src="/logo-light.svg" alt="Carceral Climates" width="600">
+  </picture>
 </p>
 
 Official website repository for **Carceral Climates**: data and solutions for the impacts of climate-related extremes on incarcerated people in the United States.
@@ -27,7 +30,16 @@ This repository hosts the static website deployed via **GitHub Pages** and serve
 ├── CNAME               # Custom domain configuration for GitHub Pages
 ├── README.md           # Repository documentation
 │
-├── logo.svg            # Website logo
+├── logo-light.svg      # Logo for light backgrounds
+├── logo-dark.svg       # Logo for dark backgrounds
+│
+├── favicon.ico         # Browser favicon
+├── favicon.svg         # Scalable favicon
+├── favicon-96x96.png   # PNG favicon fallback
+├── apple-touch-icon.png
+├── web-app-manifest-192x192.png
+├── web-app-manifest-512x512.png
+├── site.webmanifest    # Web app manifest
 ```
 
 ---
